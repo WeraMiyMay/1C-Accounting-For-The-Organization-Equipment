@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ОстаткиОборудования" id="02265736-5663-45f1-9711-8f4a0c9b656a" configVersion="574e716fc48b104cae1fb7494405d4db00000000">
+			<Metadata name="AccumulationRegister.ОстаткиОборудования.Dimension.Номенклатура" id="28b10662-dc37-4802-9ff2-304a898b96bc"/>
+			<Metadata name="AccumulationRegister.ОстаткиОборудования.Dimension.ИнвентарныйОбъект" id="57d15c8d-42d1-479b-b835-e0c73063a2d8"/>
+			<Metadata name="AccumulationRegister.ОстаткиОборудования.Dimension.Сотрудник" id="b356c747-d404-4997-8fb4-fad8ab8ba872"/>
+			<Metadata name="AccumulationRegister.ОстаткиОборудования.Resource.Количество" id="bbf55fe7-949c-4d14-8e55-38b2bf0137a8"/>
+			<Metadata name="AccumulationRegister.ОстаткиОборудования.Dimension.Подразделение" id="d0ce1270-c25d-4c16-848b-caa81586c707"/>
+		</Metadata>
+		<Metadata name="Catalog.ИнвентарныеОбъекты" id="40c194a6-b039-4fb4-b2dc-d1ee5d2fa9f7" configVersion="11012e5fd51275438167096f09fb5c2e00000000">
+			<Metadata name="Catalog.ИнвентарныеОбъекты.Attribute.СерийныйНомер" id="086bb4e8-1d88-4fec-a792-eeb74d70f136"/>
+			<Metadata name="Catalog.ИнвентарныеОбъекты.Attribute.Стоимость" id="839509b6-7663-4b89-8568-54aac7471d81"/>
+			<Metadata name="Catalog.ИнвентарныеОбъекты.Attribute.Номенклатура" id="93e2d7a8-5b3d-4c25-85f4-9ee920dfbf17"/>
+			<Metadata name="Catalog.ИнвентарныеОбъекты.Attribute.ИнвентарныйНомер" id="9955475c-0ef0-4c95-ae51-9bbdf31ba700"/>
+			<Metadata name="Catalog.ИнвентарныеОбъекты.Attribute.ДатаОкончанияГарантии" id="c2483ccd-64d5-45bc-94e7-422ec14ca987"/>
+			<Metadata name="Catalog.ИнвентарныеОбъекты.Attribute.Статус" id="c63fe07b-c77c-41c6-8891-dae34725da4e"/>
+			<Metadata name="Catalog.ИнвентарныеОбъекты.Attribute.ДатаПоступления" id="ee19079d-f5f3-45ac-9662-6fe67d5f3ca7"/>
+		</Metadata>
+		<Metadata name="Catalog.ИнвентарныеОбъекты.ObjectModule" id="40c194a6-b039-4fb4-b2dc-d1ee5d2fa9f7.0" configVersion="f44b29e7811e28488abc6628ed760a3d00000000"/>
+		<Metadata name="Catalog.НоменклатураОборудования" id="51e1e9f3-ae14-46d9-b22d-21668212c763" configVersion="c82c5df06a357748b444f9412725eb0600000000">
+			<Metadata name="Catalog.НоменклатураОборудования.Attribute.Модель" id="09874663-bf81-4846-bc91-a1899491dcfc"/>
+			<Metadata name="Catalog.НоменклатураОборудования.Attribute.СрокПолезногоИспользования" id="6d726573-98d9-4287-bcb1-ff3983168a11"/>
+			<Metadata name="Catalog.НоменклатураОборудования.Attribute.ТипОборудования" id="794a445a-e939-436f-80fe-1f72b8eea05d"/>
+			<Metadata name="Catalog.НоменклатураОборудования.Attribute.Производитель" id="e5713a60-9b0d-4173-850a-2b9fcd43fb32"/>
+		</Metadata>
+		<Metadata name="Catalog.Подразделения" id="ed7acc8a-633f-4e24-9178-1978adce535b" configVersion="ad35b966afee4d409b15c3315be6c25a00000000">
+			<Metadata name="Catalog.Подразделения.Attribute.Руководитель" id="0020caf0-30e4-43ce-88b9-3130b7f71a4d"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники" id="319721f2-6410-4379-bcb5-459d1fd60c2b" configVersion="ccb7b26135c09947bacec2d55ac4b2ab00000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.Подразделение" id="21e70d34-7a05-473b-b23d-75fe0bb596ee"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Должность" id="8859c15d-e8a7-43ca-8538-e0513462ab3e"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Телефон" id="d8882e2e-cc9e-4d81-bc8d-f53f2b656b55"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="ef159f5a-7976-4bc8-8626-254b6095edd4" configVersion="a9ba6773580d9e479ced0ab2369829c800000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="ef159f5a-7976-4bc8-8626-254b6095edd4.0" configVersion="bbca7da80b7f37469abc49a47412b32c00000000"/>
+		<Metadata name="Catalog.Сотрудники.ObjectModule" id="319721f2-6410-4379-bcb5-459d1fd60c2b.0" configVersion="1de9a0ada40595429ac0b0985444d64a00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="2726957d-7673-4780-91b4-312da900a9d9" configVersion="d9af321f40098643a8cb2dd53df03c0800000000"/>
+		<Metadata name="Document.ПередачаОборудования" id="a9b6c8f8-4579-42b9-961b-a22a85e01ada" configVersion="46555f823922c14681d86fccae9bc21d00000000">
+			<Metadata name="Document.ПередачаОборудования.Attribute.СотрудникКому" id="1fca6c9d-99d1-47fa-ae3c-20712635b6f9"/>
+			<Metadata name="Document.ПередачаОборудования.Attribute.ПодразделениеОт" id="3f038742-7365-4872-a74b-c1bc8156522e"/>
+			<Metadata name="Document.ПередачаОборудования.TabularSection.Оборудование" id="47e21ea3-1683-4a3c-a4f5-2850a43a28f0"/>
+			<Metadata name="Document.ПередачаОборудования.Attribute.ПодразделениеКому" id="86ca9ed9-c0c7-485f-9831-6c9249d5f60d"/>
+			<Metadata name="Document.ПередачаОборудования.TabularSection.Оборудование.Attribute.ИнвентарныйОбъект" id="e504a7ce-ad5a-46bd-a816-2567c0eb239b"/>
+			<Metadata name="Document.ПередачаОборудования.Attribute.СотрудникОт" id="e66eb740-9520-4242-adee-a0df65f4e573"/>
+		</Metadata>
+		<Metadata name="Document.ПередачаОборудования.Form.ФормаДокумента" id="030edddf-3d5f-4769-889b-6a022cc75bd1" configVersion="1403b6f9bb34944491743768d7e9091f00000000"/>
+		<Metadata name="Document.ПередачаОборудования.Form.ФормаДокумента.Form" id="030edddf-3d5f-4769-889b-6a022cc75bd1.0" configVersion="13c1e2b9c1fe2d48852be7381bdd394d00000000"/>
+		<Metadata name="Document.ПередачаОборудования.ObjectModule" id="a9b6c8f8-4579-42b9-961b-a22a85e01ada.0" configVersion="1a2bdb8f9d2fa44480b286efb3172bff00000000"/>
+		<Metadata name="Document.ПоступлениеОборудования" id="3d09917e-2b07-47dc-b79d-d6432319489a" configVersion="f4a15f0f7df3004787a2fc33cafbc1e600000000">
+			<Metadata name="Document.ПоступлениеОборудования.TabularSection.Оборудование.Attribute.ИнвентарныйНомер" id="07c55195-6296-4ae4-96df-ecafe14ca11f"/>
+			<Metadata name="Document.ПоступлениеОборудования.Attribute.Ответственный" id="1971c918-bd50-42fa-bd71-b53f2e9f9060"/>
+			<Metadata name="Document.ПоступлениеОборудования.TabularSection.Оборудование.Attribute.Стоимость" id="32601988-4660-4c0d-a808-c13808603573"/>
+			<Metadata name="Document.ПоступлениеОборудования.TabularSection.Оборудование.Attribute.СерийныйНомер" id="392cdf3e-2091-450e-8c70-f688326612f5"/>
+			<Metadata name="Document.ПоступлениеОборудования.TabularSection.Оборудование" id="4e1a3df5-d40b-469c-a8bb-08604cdd4b18"/>
+			<Metadata name="Document.ПоступлениеОборудования.Attribute.Поставщик" id="4f97ebdc-49cf-4de2-8dc8-3ff4aedbe3c6"/>
+			<Metadata name="Document.ПоступлениеОборудования.TabularSection.Оборудование.Attribute.Номенклатура" id="b2e2546f-d89b-491a-83e1-4713d67404b3"/>
+			<Metadata name="Document.ПоступлениеОборудования.TabularSection.Оборудование.Attribute.ГарантияДо" id="f4b5174c-ca31-4a4b-a48f-ace0d604120a"/>
+			<Metadata name="Document.ПоступлениеОборудования.Attribute.Подразделение" id="fa9f9012-4705-4e85-8d75-f740e90a44d4"/>
+		</Metadata>
+		<Metadata name="Document.ПоступлениеОборудования.ObjectModule" id="3d09917e-2b07-47dc-b79d-d6432319489a.0" configVersion="562249cc34358041835138f350aa8d8200000000"/>
+		<Metadata name="Document.СписаниеОборудования" id="7bf2afe6-97d9-42aa-b2f9-6fb5aaa2dfa0" configVersion="03659181500fdc429b8dbc37424ff63900000000">
+			<Metadata name="Document.СписаниеОборудования.TabularSection.Оборудование" id="09af5543-7ef5-4797-aa05-fab8f5fa693a"/>
+			<Metadata name="Document.СписаниеОборудования.Attribute.Сотрудник" id="2972e0a4-712f-461a-86d8-b5b8078a92ff"/>
+			<Metadata name="Document.СписаниеОборудования.Attribute.ПричинаСписания" id="d2161ed7-ab1a-4c11-a196-2364d46bfc91"/>
+			<Metadata name="Document.СписаниеОборудования.TabularSection.Оборудование.Attribute.ИнвентарныйОбъект" id="d4475436-9880-4646-856e-395d92001d3a"/>
+			<Metadata name="Document.СписаниеОборудования.Attribute.Подразделение" id="f93c3b7a-8c87-4d2a-ab0f-9bc570855d4c"/>
+		</Metadata>
+		<Metadata name="Document.СписаниеОборудования.ObjectModule" id="7bf2afe6-97d9-42aa-b2f9-6fb5aaa2dfa0.0" configVersion="4457271431ebb348b18f80c4ac46494700000000"/>
+		<Metadata name="Enum.ПричинаСписания" id="81a4bf35-20e3-43ee-a901-833dfb17ef06" configVersion="6ad75e500a78a74ba1b34805dbbff52a00000000">
+			<Metadata name="Enum.ПричинаСписания.EnumValue.Потеря" id="3088ffe6-f75a-4697-a07c-cb31510934ac"/>
+			<Metadata name="Enum.ПричинаСписания.EnumValue.Поломка" id="3f039daf-3b14-4ad5-8dae-e082e1ae82dc"/>
+			<Metadata name="Enum.ПричинаСписания.EnumValue.Другое" id="473fb623-9609-4223-8f9a-b4222e5eabb2"/>
+			<Metadata name="Enum.ПричинаСписания.EnumValue.Брак" id="645e4599-6d4f-4332-9d50-55175552dffb"/>
+			<Metadata name="Enum.ПричинаСписания.EnumValue.Кража" id="a866bda9-85ae-40cb-80f9-afb99a2a0df2"/>
+			<Metadata name="Enum.ПричинаСписания.EnumValue.Устарело" id="bb171d01-6473-4f4e-83e6-d4a08b11201d"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусОборудования" id="d8d8154b-f5f4-4001-b667-f7e8786f6665" configVersion="11f0f94ca4ee9e489f11123b5526cda800000000">
+			<Metadata name="Enum.СтатусОборудования.EnumValue.ВЭксплуатации" id="234abde7-ec70-4f86-94d3-95e97600264f"/>
+			<Metadata name="Enum.СтатусОборудования.EnumValue.НаСкладе" id="27c02e57-0b60-4ff5-ad27-4f491344047c"/>
+			<Metadata name="Enum.СтатусОборудования.EnumValue.Списано" id="97a96f10-ef44-476e-bb1e-b287cb654e8a"/>
+			<Metadata name="Enum.СтатусОборудования.EnumValue.ВРемонте" id="c728fac3-5206-4b60-8977-fbaa90e6dd8b"/>
+		</Metadata>
+		<Metadata name="Enum.ТипОборудования" id="bbc3bc6c-4662-4373-98c7-cf441e595ea1" configVersion="3ca3c461b110d54295dddedef2bf643800000000">
+			<Metadata name="Enum.ТипОборудования.EnumValue.Принтер" id="1467f20b-6b17-4ef2-9605-a2c1c74a1e19"/>
+			<Metadata name="Enum.ТипОборудования.EnumValue.Монитор" id="16cd9d98-b4fc-4677-bf59-3ec0fb13271f"/>
+			<Metadata name="Enum.ТипОборудования.EnumValue.Компьютер" id="5bbbfeda-8c8b-4ca4-a982-5ac7a2394fd2"/>
+			<Metadata name="Enum.ТипОборудования.EnumValue.Сервер" id="5fbb6ff9-2efe-4fe2-b379-1f8c972adf28"/>
+			<Metadata name="Enum.ТипОборудования.EnumValue.Ноутбук" id="6ca4c439-9834-4ec7-9e68-6bb6cfed19e5"/>
+			<Metadata name="Enum.ТипОборудования.EnumValue.Другое" id="7edd7202-825d-491a-988f-28b85b7eaf73"/>
+			<Metadata name="Enum.ТипОборудования.EnumValue.СетевоеОборудование" id="b166dbd2-fa75-49d8-8a62-cdab61d8aca9"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="5c51c5b0-2246-45d5-bc44-52e532521441" configVersion="a77f3b8b4d32504eb462a6e5fec1f33d00000000"/>
+		<Metadata name="Report.ОборудованиеПоОстаткам" id="cccebc25-11ae-460d-9ed1-7d13bb36d4ff" configVersion="a6ca76b43b64994fbfcdc7d2d84ccc1500000000"/>
+		<Metadata name="Report.ОборудованиеПоОстаткам.Template.ОсновнаяСхемаКомпоновкиДанных" id="eac1695a-1fde-4085-9f43-9b46143c00ef" configVersion="5c16523172fdfc4293659b3ddb1c4fb200000000"/>
+		<Metadata name="Report.ОборудованиеПоОстаткам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="eac1695a-1fde-4085-9f43-9b46143c00ef.0" configVersion="74c8728ca74d7a4aba104b355a9c00dd00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
