@@ -1,0 +1,1 @@
+# 1C-Accounting-For-The-Organization-s-Equipment
