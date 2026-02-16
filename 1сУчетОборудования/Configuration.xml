@@ -245,10 +245,13 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>МодульСеанса</CommonModule>
+			<CommonForm>РабочийСтол</CommonForm>
 			<Catalog>НоменклатураОборудования</Catalog>
 			<Catalog>ИнвентарныеОбъекты</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>Поставщики</Catalog>
 			<Document>ПоступлениеОборудования</Document>
 			<Document>ПередачаОборудования</Document>
 			<Document>СписаниеОборудования</Document>

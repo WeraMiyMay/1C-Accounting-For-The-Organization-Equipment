@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="1">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Button name="Кнопка1" id="6">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инвентарные объекты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="7"/>
+				</Button>
+				<LabelDecoration name="Система" id="3">
+					<Font faceName="Arial Black" height="16" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Система учета оборудования</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СистемаКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="СистемаРасширеннаяПодсказка" id="5"/>
+				</LabelDecoration>
+				<Button name="Кнопка2" id="8">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура оборудования</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка2РасширеннаяПодсказка" id="9"/>
+				</Button>
+				<Button name="Кнопка3" id="10">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поступление оборудования</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка3РасширеннаяПодсказка" id="11"/>
+				</Button>
+				<Button name="Кнопка4" id="12">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Передача оборудования</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка4РасширеннаяПодсказка" id="13"/>
+				</Button>
+				<Button name="Кнопка5" id="14">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Списание оборудования</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка5РасширеннаяПодсказка" id="15"/>
+				</Button>
+				<Button name="Кнопка6" id="16">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поставщики</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка6РасширеннаяПодсказка" id="17"/>
+				</Button>
+				<Button name="Кнопка7" id="18">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчёты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка7РасширеннаяПодсказка" id="19"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<Commands>
+		<Command name="ОткрытьПоступление" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть поступление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть поступление</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ОткрытьИнвентарныеОбъекты" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть инвентарные объекты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть инвентарные объекты</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ОткрытьПередачу" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть передачу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть передачу</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ОткрытьСписание" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть списание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть списание</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ОткрытьПоставщики" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть поставщики</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть поставщики</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ОткрытьОтчеты" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть отчеты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть отчеты</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+	</Commands>
+</Form>

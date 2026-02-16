@@ -27,6 +27,13 @@
 		<Metadata name="Catalog.Подразделения" id="ed7acc8a-633f-4e24-9178-1978adce535b" configVersion="ad35b966afee4d409b15c3315be6c25a00000000">
 			<Metadata name="Catalog.Подразделения.Attribute.Руководитель" id="0020caf0-30e4-43ce-88b9-3130b7f71a4d"/>
 		</Metadata>
+		<Metadata name="Catalog.Поставщики" id="590dafd1-a332-4497-a204-cd64efc02a41" configVersion="5e5338ea0288234595b5abff9569f40e00000000">
+			<Metadata name="Catalog.Поставщики.Attribute.Email" id="43c97197-c599-451c-a701-37957c7e6f9b"/>
+			<Metadata name="Catalog.Поставщики.Attribute.Телефон" id="a63075a5-4c33-43bc-9eb7-8dc75ea89c7c"/>
+			<Metadata name="Catalog.Поставщики.Attribute.КонтактноеЛицо" id="de703125-09f9-4d87-ad5e-4a1e1d3c41d5"/>
+			<Metadata name="Catalog.Поставщики.Attribute.Адрес" id="f033b016-a60d-460c-bcc9-6aecac42af0d"/>
+			<Metadata name="Catalog.Поставщики.Attribute.ИНН" id="ffce197d-e5fd-44f5-ba76-7cf646030eea"/>
+		</Metadata>
 		<Metadata name="Catalog.Сотрудники" id="319721f2-6410-4379-bcb5-459d1fd60c2b" configVersion="ccb7b26135c09947bacec2d55ac4b2ab00000000">
 			<Metadata name="Catalog.Сотрудники.Attribute.Подразделение" id="21e70d34-7a05-473b-b23d-75fe0bb596ee"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Должность" id="8859c15d-e8a7-43ca-8538-e0513462ab3e"/>
@@ -35,7 +42,11 @@
 		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="ef159f5a-7976-4bc8-8626-254b6095edd4" configVersion="a9ba6773580d9e479ced0ab2369829c800000000"/>
 		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="ef159f5a-7976-4bc8-8626-254b6095edd4.0" configVersion="bbca7da80b7f37469abc49a47412b32c00000000"/>
 		<Metadata name="Catalog.Сотрудники.ObjectModule" id="319721f2-6410-4379-bcb5-459d1fd60c2b.0" configVersion="1de9a0ada40595429ac0b0985444d64a00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="2726957d-7673-4780-91b4-312da900a9d9" configVersion="d9af321f40098643a8cb2dd53df03c0800000000"/>
+		<Metadata name="CommonForm.РабочийСтол" id="a182f891-54d7-4255-a534-50322173911e" configVersion="6fe7ff508b5b3d419b6ffed466d7213b00000000"/>
+		<Metadata name="CommonForm.РабочийСтол.Form" id="a182f891-54d7-4255-a534-50322173911e.0" configVersion="1cba3c13087bc743adc805865cf7526500000000"/>
+		<Metadata name="CommonModule.МодульСеанса" id="96ce8979-f2ee-4e31-8cb3-9d5f05a7d0d6" configVersion="a83cb2c1ecac774cab61c357a100a63000000000"/>
+		<Metadata name="CommonModule.МодульСеанса.Module" id="96ce8979-f2ee-4e31-8cb3-9d5f05a7d0d6.0" configVersion="e7e7fbbd5753b440bcfb735e59ece9ae00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="2726957d-7673-4780-91b4-312da900a9d9" configVersion="b350a31aaed43f46a0df152cd352ac3400000000"/>
 		<Metadata name="Document.ПередачаОборудования" id="a9b6c8f8-4579-42b9-961b-a22a85e01ada" configVersion="46555f823922c14681d86fccae9bc21d00000000">
 			<Metadata name="Document.ПередачаОборудования.Attribute.СотрудникКому" id="1fca6c9d-99d1-47fa-ae3c-20712635b6f9"/>
 			<Metadata name="Document.ПередачаОборудования.Attribute.ПодразделениеОт" id="3f038742-7365-4872-a74b-c1bc8156522e"/>
@@ -47,7 +58,7 @@
 		<Metadata name="Document.ПередачаОборудования.Form.ФормаДокумента" id="030edddf-3d5f-4769-889b-6a022cc75bd1" configVersion="1403b6f9bb34944491743768d7e9091f00000000"/>
 		<Metadata name="Document.ПередачаОборудования.Form.ФормаДокумента.Form" id="030edddf-3d5f-4769-889b-6a022cc75bd1.0" configVersion="13c1e2b9c1fe2d48852be7381bdd394d00000000"/>
 		<Metadata name="Document.ПередачаОборудования.ObjectModule" id="a9b6c8f8-4579-42b9-961b-a22a85e01ada.0" configVersion="1a2bdb8f9d2fa44480b286efb3172bff00000000"/>
-		<Metadata name="Document.ПоступлениеОборудования" id="3d09917e-2b07-47dc-b79d-d6432319489a" configVersion="f4a15f0f7df3004787a2fc33cafbc1e600000000">
+		<Metadata name="Document.ПоступлениеОборудования" id="3d09917e-2b07-47dc-b79d-d6432319489a" configVersion="d09de5f25519ae448dc465a6e8333a3500000000">
 			<Metadata name="Document.ПоступлениеОборудования.TabularSection.Оборудование.Attribute.ИнвентарныйНомер" id="07c55195-6296-4ae4-96df-ecafe14ca11f"/>
 			<Metadata name="Document.ПоступлениеОборудования.Attribute.Ответственный" id="1971c918-bd50-42fa-bd71-b53f2e9f9060"/>
 			<Metadata name="Document.ПоступлениеОборудования.TabularSection.Оборудование.Attribute.Стоимость" id="32601988-4660-4c0d-a808-c13808603573"/>
@@ -92,7 +103,7 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="5c51c5b0-2246-45d5-bc44-52e532521441" configVersion="a77f3b8b4d32504eb462a6e5fec1f33d00000000"/>
 		<Metadata name="Report.ОборудованиеПоОстаткам" id="cccebc25-11ae-460d-9ed1-7d13bb36d4ff" configVersion="a6ca76b43b64994fbfcdc7d2d84ccc1500000000"/>
-		<Metadata name="Report.ОборудованиеПоОстаткам.Template.ОсновнаяСхемаКомпоновкиДанных" id="eac1695a-1fde-4085-9f43-9b46143c00ef" configVersion="5c16523172fdfc4293659b3ddb1c4fb200000000"/>
-		<Metadata name="Report.ОборудованиеПоОстаткам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="eac1695a-1fde-4085-9f43-9b46143c00ef.0" configVersion="74c8728ca74d7a4aba104b355a9c00dd00000000"/>
+		<Metadata name="Report.ОборудованиеПоОстаткам.Template.ОсновнаяСхемаКомпоновкиДанных" id="eac1695a-1fde-4085-9f43-9b46143c00ef" configVersion="ca5d58accafc38438e4e96c7af5881fa00000000"/>
+		<Metadata name="Report.ОборудованиеПоОстаткам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="eac1695a-1fde-4085-9f43-9b46143c00ef.0" configVersion="32d8b88078ac8f41a423e8489fba131a00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
